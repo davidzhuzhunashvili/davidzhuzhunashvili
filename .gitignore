@@ -1,3 +1,11 @@
+# WILL REMOVE THESE IN FUTURE
+node_modules*
+package-lock.json
+package.json
+server.js
+webpack.config.js
+www*
+
 # Node gitignore
 #
 # Logs
