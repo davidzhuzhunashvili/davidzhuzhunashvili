@@ -5,6 +5,7 @@ package.json
 server.js
 webpack.config.js
 www*
+client*
 
 # Node gitignore
 #
