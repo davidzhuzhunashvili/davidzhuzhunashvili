@@ -23,17 +23,23 @@
 .mid-circle {
   fill: #000;
 }
+
+.around {
+  fill: none;
+  stroke-width: 2;
+  stroke: black;
+}
 .hour-marks {
   fill: none;
   stroke: #000;
-  stroke-width: 9;
+  stroke-width: 3;
   stroke-miterlimit: 10;
 }
 
 .hour-arm {
   fill: none;
   stroke: #000;
-  stroke-width: 17;
+  stroke-width: 15;
   stroke-miterlimit: 10;
 }
 
@@ -47,8 +53,15 @@
 .second-arm {
   fill: none;
   stroke: #000;
-  stroke-width: 4;
+  stroke-width: 3;
   stroke-miterlimit: 10;
+}
+
+.milli-arm {
+  fill: none;
+  stroke: #000;
+  stroke-width: 3;
+  stroke-miterlimit: 10; 
 }
 
 /* Transparent box ensuring arms center properly. */
@@ -62,4 +75,9 @@
 #minute,
 #second {
   transform-origin: 300px 300px;
+}
+
+#milli {
+  transform-origin: 300px 300px;
+  /* transition: transform .5s ease-in-out; */
 }
